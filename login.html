@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>우리은행 VDI</title>
+    <link rel="stylesheet" href="css/import.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="./js/modal.js"></script>
+</head>
+
+<body>
+    <div class="loginContainer">
+        <div class="inner">
+            <div class="left_box">
+                <h1 class="logo">
+                    <a href="javascirpt:void(0)">
+                        <img src="./images/woori_h_logo.svg" alt="우리은행 로고">
+                    </a>
+                </h1>
+                <div class="txtBox">
+                    <h2>VDI VIRTUAL DESKTOP</h2>
+                    <P>안전하고 편리한 가상 데스크톱 환경</P>
+                </div>
+
+                <div class="info_box">
+                    <ul>
+                        <li>
+                            <div class="iconBox">
+                                <img src="./images/woori_icon01.svg" alt="">
+                            </div>
+                            <div class="descBox">
+                                <span>유연성</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="iconBox">
+                                <img src="./images/woori_icon02.svg" alt="">
+                            </div>
+                            <div class="descBox">
+                                <span>보안성</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="iconBox">
+                                <img src="./images/woori_icon03.svg" alt="">
+                            </div>
+                            <div class="descBox">
+                                <span>효율성</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="conBox">
+                    <div class="noticeBox">
+                        <div class="con">
+                            <div class="header">
+                                <div class="iconBox">
+                                    <img src="./images/woori_notice.svg" alt="">
+                                </div>
+                                <h3>Notice</h3>
+                            </div>
+                            <div class="desc">
+                                <ul>
+                                    <li class="notice-item">
+                                        <p>공지 제목이 들어갈 공간입니다. 공지 제목이 들어갈 공간입니다. 공지 제목이 들어갈 공간입니다.</p>
+                                        <span>2025-09-05</span>
+                                    </li>
+                                    <li class="notice-item">
+                                        <p>공지 제목이 들어갈 공간입니다.</p>
+                                        <span>2025-09-05</span>
+                                    </li>
+                                    <li class="notice-item">
+                                        <p>공지 제목이 들어갈 공간입니다.</p>
+                                        <span>2025-09-05</span>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="help_box">
+                        <div class="con">
+                            <div class="header">
+                                <div class="iconBox">
+                                    <img src="./images/call_icon.svg" alt="">
+                                </div>
+                                <h3>Helpdesk</h3>
+                            </div>
+                            <div class="desc">
+                                <div class="leftBox">
+                                    <span>재단 담당자</span>
+                                    <h4>정보화관리부 담당자</h4>
+
+                                    <div class="numBox">
+                                        <span>내선 번호</span>
+                                        <h4 class="archivo">053.238.2578</h4>
+                                    </div>
+                                </div>
+                                <div class="rightBox">
+
+                                    <h4>가상PC<br />포털 및 운영</h4>
+                                    <div class="numBox">
+                                        <span>내선 번호</span>
+                                        <h4 class="archivo">053.238.2874/2871</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right_box">
+
+                <div class="formBox">
+                    <div class="logo">
+                        <img src="./images/lock_icon.svg" alt="">
+                    </div>
+
+                    <div class="txtBox">
+                        <h2>보안 로그인</h2>
+                        <p>안전한 접속을 위해 인증 정보를 입력해주세요</p>
+                    </div>
+
+                    <div class="input_wrap">
+                        <div class="input_box">
+                            <label for="userID">아이디</label>
+                            <div class="inputCon">
+                                <input type="text" id="userID" placeholder="아이디를 입력하세요" />
+                            </div>
+                        </div>
+
+                        <div class="input_box">
+                            <label for="userPW">비밀번호</label>
+                            <div class="inputCon">
+                                <input type="password" id="userPW" class="userPw" placeholder="비밀번호를 입력하세요" />
+                                <span class="toggle-password">
+                                    <img src="./images/preview_icon.svg" alt="">
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="input_box">
+                            <label for="otpNumber">OTP</label>
+                            <div class="inputCon">
+                                <input type="text" id="otpNumber" placeholder="OTP 번호를 입력하세요" />
+                            </div>
+                        </div>
+
+                        <div class="checkBox">
+                            <label for="IdCheck"></label>
+                            <input type="checkbox" id="IdCheck" class="IdCheck" />
+                            <span>아이디 저장</span>
+                        </div>
+
+                        <div class="loginBtn">
+                            <button type="button" class="pretendard">로그인</button>
+                        </div>
+
+                        <div class="passwordBox">
+                            <p class="passwordChange">비밀번호 변경</p>
+
+                            <div class="downBox">
+                                <a href="javascirpt:void(0)" download="">
+                                    <img src="./images/download_icon.svg" alt="">
+                                    <p>메뉴얼 다운로드</p>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <footer>
+            <ul>
+                <li><img src="./images/woori_f_logo.svg" alt="woori bank logo"></li>
+                <li><img src="./images/woori_f_vdi.svg" alt="woori bank VDI logo"></li>
+            </ul>
+            <div>
+                <p>
+                    <b>불법적인 접근 및 사용시 관련 법규에 의해 처벌될 수 있습니다.</b>
+                    Copyright ⓒ All right reserved.
+                </p>
+            </div>
+        </footer>
+
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <div class="content">
+                    <div class="close">
+                        <a href="javascript:void(0)">
+                            <img src="./images/closeBtn.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="modalTit">
+                        <img src="./images/modal_img.svg" alt="">
+                        <h2>공지사항</h2>
+                    </div>
+                    <div class="con_wrap">
+                        <div class="scrollBox">
+                            <div class="subtxt">
+                                <h3>공지사항 제목이 들어갈 공간입니다.</h3>
+                                <p>공지사항 내용이 들어갈 공간입니다. 공지사항 내용이 들어갈
+                                    공간입니다. 공지사항 내용이 들어갈 공간입니다. 공지사항 내용이
+                                    들어갈 공간입니다. 공지사항 내용이 들어갈 공간입니다.</p>
+
+                                <p>공지사항 내용이 들어갈 공간입니다. 공지사항 내용이 들어갈
+                                    공간입니다. 공지사항 내용이 들어갈 공간입니다. 공지사항 내용이
+                                    들어갈 공간입니다. 공지사항 내용이 들어갈 공간입니다.</p>
+
+                                <p>공지사항 내용이 들어갈 공간입니다. 공지사항 내용이 들어갈
+                                    공간입니다. 공지사항 내용이 들어갈 공간입니다. 공지사항 내용이
+                                    들어갈 공간입니다. 공지사항 내용이 들어갈 공간입니다.</p>
+
+                                <p>공지사항 내용이 들어갈 공간입니다. 공지사항 내용이 들어갈
+                                    공간입니다. 공지사항 내용이 들어갈 공간입니다. 공지사항 내용이
+                                    들어갈 공간입니다. 공지사항 내용이 들어갈 공간입니다.</p>
+                                <p>공지사항 내용이 들어갈 공간입니다. 공지사항 내용이 들어갈
+                                    공간입니다. 공지사항 내용이 들어갈 공간입니다. 공지사항 내용이
+                                    들어갈 공간입니다. 공지사항 내용이 들어갈 공간입니다.</p>
+
+                                <p>공지사항 내용이 들어갈 공간입니다. 공지사항 내용이 들어갈
+                                    공간입니다. 공지사항 내용이 들어갈 공간입니다. 공지사항 내용이
+                                    들어갈 공간입니다. 공지사항 내용이 들어갈 공간입니다.</p>
+
+                                <p>공지사항 내용이 들어갈 공간입니다. 공지사항 내용이 들어갈
+                                    공간입니다. 공지사항 내용이 들어갈 공간입니다. 공지사항 내용이
+                                    들어갈 공간입니다. 공지사항 내용이 들어갈 공간입니다.</p>
+                            </div>
+                        </div>
+
+                        <div class="closeBtn">
+                            <button type="button">닫기</button>
+                        </div>
+
+                        <div class="seeMoreBtn">
+                            <label>
+                                <input type="checkbox" class="noMore" />
+                                <span>오늘 하루 열지 않기</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
